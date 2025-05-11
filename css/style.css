@@ -233,6 +233,7 @@ ul, ol {
 .img-bg {
     background-position: center center;
     background-size: cover;
+    height: 100vh;
 }
 
 
@@ -244,7 +245,7 @@ ul, ol {
 	display: block;
 }
 .caption-box {
-    padding: 20% 0 22%;
+    padding: 35% 0 22%;
 	max-width: 700px;
 	position: relative;
 }
@@ -645,7 +646,7 @@ b, strong {
     right: 0;
     top: 0;
 	margin-right:15px;
-	background-image:url(../images/about/1.jpg);
+	background-image:url(../images/about/naserzare.jpg);
 	background-size:cover;
 	background-position:center;
 }
@@ -675,11 +676,11 @@ b, strong {
 .boxs-quote h3 {
     background: #ccc none repeat scroll 0 0;
     color: #fff;
-    font-size: 35px;
-    letter-spacing: 7px;
+    font-size: 30px;
+    letter-spacing: 3px;
     margin:0;
     max-width: none;
-    padding: 50px 50px 110px;
+    padding: 100px 25px 142px;
     text-align: center;
     text-transform: uppercase;
 }
