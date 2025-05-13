@@ -605,7 +605,7 @@ ul, ol {
     top: 0;
     width: 100%;
 }
-#client{background-image:url(../images/bg/1.jpg);}
+#client{background-image:url(../images/bg/3.webp);}
 .client-list{text-align:center;}
 /*-----------------------------ABOUT SECTION-----------------------------------*/
 b, strong {
@@ -646,7 +646,7 @@ b, strong {
     right: 0;
     top: 0;
 	margin-right:15px;
-	background-image:url(../images/about/naserzare.jpg);
+	background-image:url(../images/about/mehrad.jpg);
 	background-size:cover;
 	background-position:center;
 }
