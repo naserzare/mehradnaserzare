@@ -22,10 +22,11 @@ MEDIA QUERIES
 
 body, html {
 	height: 100%;
+    direction: rtl;
 }
 body {
     color: #939393;
-    font-family: "open sans",sans-serif;
+    font-family: "Vazirmatn",sans-serif;
     font-size: 14px;
     line-height: 2.2;
 }
@@ -52,7 +53,7 @@ a:focus {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
-	font-family: 'Teko', sans-serif;
+	font-family: 'Vazirmatn', sans-serif;
 	color: #000;
 	line-height:1;
 }
@@ -154,7 +155,7 @@ ul, ol {
 .navigation li a {
     color: #909090;
     display: block;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Vazirmatn', sans-serif;
     font-size: 12px;
     /* letter-spacing: 2.5px; */
     padding: 15px 17px;
@@ -246,7 +247,7 @@ ul, ol {
     color: #fff;
     font-size: 75px;
 	font-weight:normal;
-    letter-spacing: 20px;
+    /* letter-spacing: 20px; */
     margin: 0 0 40px;
     text-transform: uppercase;
 }.slider-mask {
@@ -297,8 +298,8 @@ ul, ol {
     background: #fff none repeat scroll 0 0;
     display: inline-block;
     height: 2px;
-    margin-left: 0px;
-    margin-right: 100px;
+    margin-right: 0px;
+    margin-left: 100px;
     width: 530px;
 }
 #home .owl-pagination {
@@ -338,11 +339,12 @@ ul, ol {
 /*-----------------------------PORTFOLIOS SECTION----------------------------------*/
 .content-title {
     font-size: 50px;
-    letter-spacing: 10px;
+    /* letter-spacing: 10px; */
     margin: auto auto 40px;
     max-width: 500px;
     text-align: center;
     text-transform: uppercase;
+    line-height: 1.5em;
 }
 .port-item {
     padding: 0;
@@ -352,11 +354,11 @@ ul, ol {
     border-radius: 100px;
     color: #fff;
     display: inline-block;
-    font-family: oswald;
+    font-family: Vazirmatn;
     font-size: 15px;
     font-weight: 700;
     height: 50px;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     line-height: 50px;
     text-align: center;
     width: 50px;
@@ -410,9 +412,9 @@ ul, ol {
 }
 .port-content > h3 {
     color: #fff;
-    font-family: oswald;
+    font-family: Vazirmatn;
     font-size: 20px;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
     line-height: 1;
     margin: 0 0 5px;
     text-transform: uppercase;
@@ -436,7 +438,7 @@ ul, ol {
     color: #fff;
     display: block;
     font-size: 12px;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     line-height: 1;
     margin: 0 100px 0 0;
     opacity: 0.5;
@@ -458,9 +460,9 @@ ul, ol {
     border: 2px solid #000;
     color: #fff;
     display: inline-block;
-    font-family: oswald;
+    font-family: Vazirmatn;
     font-size: 12px;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     line-height: 1;
 	margin-bottom:3px;
     padding: 13px 20px;
@@ -482,9 +484,9 @@ ul, ol {
 .port-item{max-width:100%;}
 .big-title {
     border-bottom: 1px solid #ccc;
-    font-family: oswald;
+    font-family: Vazirmatn;
     font-size: 20px;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
     line-height: 1;
     margin: 0 80px 0 0;
     padding-bottom: 20px;
@@ -496,7 +498,7 @@ ul, ol {
 .sub-title {
     display: block;
     font-size: 14px;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     margin: 0;
     opacity: 0.5;
     text-transform: uppercase;
@@ -572,8 +574,8 @@ ul, ol {
     border: 2px solid #000;
     color: #fff;
     display: inline-block;
-    font-family: oswald;
-    letter-spacing: 5px;
+    font-family: Vazirmatn;
+    /* letter-spacing: 5px; */
     line-height: 1;
     padding: 16px 25px;
     text-align: center;
@@ -606,7 +608,7 @@ b, strong {
     font-weight: 700;
 }
 .bordering {
-    border-left: 1px solid #000;
+    border-right: 1px solid #000;
     margin: 20px 0;
     padding: 20px 40px;
 }
@@ -625,9 +627,9 @@ b, strong {
 }
 .boxs-title {
     border-bottom: 1px solid #ccc;
-    font-family: oswald;
+    font-family: Vazirmatn;
     font-size: 20px;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
     line-height: 1;
     margin: 0 80px 30px 0;
     padding-bottom: 20px;
@@ -636,10 +638,10 @@ b, strong {
 .boxs-absolute{    
 	height: 100%;
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
-	margin-right:15px;
-	background-image:url(../images/about/mehrad.jpg);
+	margin-left:15px;
+	background-image:url(../images/about/mehrad-rtl.jpg);
 	background-size:cover;
 	background-position:center;
 }
@@ -648,8 +650,8 @@ b, strong {
     border: 2px solid #000;
     color: #fff;
     display: block;
-    font-family: oswald;
-    letter-spacing: 5px;
+    font-family: Vazirmatn;
+    /* letter-spacing: 5px; */
     line-height: 1;
     margin-right: -100px;
     margin-top: -46px;
@@ -670,7 +672,7 @@ b, strong {
     background: #ccc none repeat scroll 0 0;
     color: #fff;
     font-size: 30px;
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
     margin:0;
     max-width: none;
     padding: 100px 25px 142px;
@@ -704,8 +706,8 @@ b, strong {
     border: 2px solid #000;
     color: #fff;
     display: block;
-    font-family: oswald;
-    letter-spacing: 5px;
+    font-family: Vazirmatn;
+    /* letter-spacing: 5px; */
     line-height: 1;
     margin-right: -100px;
     margin-top: -35px;
@@ -725,7 +727,7 @@ b, strong {
 .team-content > h3 {
     color: #fff;
     font-size: 25px;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
     margin: 0;
     text-transform: uppercase;
 }
@@ -758,7 +760,7 @@ b, strong {
 .team-content > h3 {
     color: #fff;
     font-size: 25px;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
     margin: 0;
     text-transform: uppercase;
 }
@@ -767,7 +769,7 @@ b, strong {
     color: #fff;
     display: block;
     font-size: 12px;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     line-height: 1;
     opacity: 0.5;
     text-transform: uppercase;
@@ -809,7 +811,7 @@ b, strong {
 }
 .box-map > h3 {
     font-size: 16px;
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
     margin: 10px 0 20px;
     text-transform: uppercase;
 }
@@ -826,7 +828,7 @@ form input,form textarea {
 #MyContactForm{text-align:left;}
 #MyContactForm p span {
     display: block;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     text-transform: uppercase;
 }
 input:focus, textarea:focus {
@@ -862,7 +864,7 @@ input:focus, textarea:focus {
     font-weight: normal;
     left: auto;
 	font-style:italic;
-    letter-spacing: 0;
+    /* letter-spacing: 0; */
     position: absolute;
     right: 20px;
     text-transform: capitalize;
@@ -873,8 +875,8 @@ input:focus, textarea:focus {
     border: 2px solid #000;
     color: #fff;
     display: inline-block;
-    font-family: oswald;
-    letter-spacing: 5px;
+    font-family: Vazirmatn;
+    /* letter-spacing: 5px; */
     line-height: 1;
     padding: 16px 25px;
     text-align: center;
@@ -885,7 +887,7 @@ input:focus, textarea:focus {
 	position: relative;
 }
 .response h3 {
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     margin: 10px 0 25px;
     text-transform: uppercase;
 }
@@ -922,7 +924,7 @@ input:focus, textarea:focus {
 .footer-icon a:hover{color:#fff;background:#888888 ;}
 .footer p {
     font-size: 12px;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     margin: 0;
     text-transform: uppercase;
 }
@@ -945,7 +947,7 @@ input:focus, textarea:focus {
 }
 .blog-title {
     font-size: 35px;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
     line-height: 1;
     margin: 0;
     padding-bottom: 20px;
@@ -996,7 +998,7 @@ input:focus, textarea:focus {
     color: inherit;
     font-size: 11px;
     font-weight: bold;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     text-transform: uppercase;
 }
 .blog-wrapper .slide-nav.inright {
@@ -1023,9 +1025,9 @@ input:focus, textarea:focus {
 /*-----------------------------SIDEBAR SECTION----------------------------------*/
 .widgettitle {
     border-bottom: 1px solid #eee;
-    font-family: oswald;
+    font-family: Vazirmatn;
     font-size: 20px;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
     line-height: 1;
     margin: 0 0 20px;
     padding-bottom: 20px;
@@ -1084,7 +1086,7 @@ input:focus, textarea:focus {
     color: #000;
     display: inline-block;
     font-size: 11px;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     margin-bottom: 5px;
     padding: 6px 17px;
     text-transform: uppercase;
@@ -1119,10 +1121,10 @@ input:focus, textarea:focus {
 }
 .com-author {
     color: #555555;
-    font-family: oswald;
+    font-family: Vazirmatn;
     font-size: 14px;
     font-weight: bold;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     line-height: 1;
     margin: 0;
     text-transform: uppercase;
@@ -1145,8 +1147,8 @@ input:focus, textarea:focus {
     border: 2px solid #000;
     color: #fff;
     display: inline-block;
-    font-family: oswald;
-    letter-spacing: 5px;
+    font-family: Vazirmatn;
+    /* letter-spacing: 5px; */
     line-height: 1;
     padding: 16px 25px;
     text-align: center;
@@ -1166,12 +1168,12 @@ input:focus, textarea:focus {
     display: block;
     font-size: 11px;
     font-weight: bold;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     text-transform: uppercase;
 }
 .title-strong {
     font-size: 23px;
-    letter-spacing: 4px;
+    /* letter-spacing: 4px; */
     margin: 0;
     text-transform: uppercase;
 }
@@ -1217,7 +1219,7 @@ input:focus, textarea:focus {
 @media (max-width: 767px) {
 .caption-box h3 {
     font-size: 50px;
-    letter-spacing: 10px;
+    /* letter-spacing: 10px; */
 }
 .slide-border,.slide-btn,.home-slider .slide-nav{display:none;}
 .content-title {
@@ -1237,14 +1239,15 @@ input:focus, textarea:focus {
 }
 .port-cat {
     font-size: 11px;
-    letter-spacing: 0;
+    /* letter-spacing: 0; */
 }
 .port-content {
     padding-bottom: 20px;
 }
 }
-.nav-bold {
-    font-weight: bold;
-    font-size: 16px !important;
-    font-family: Vazirmatn !important;
+.force-right {
+    float: right !important;
+}
+.force-text-align {
+    text-align: left;
 }
